@@ -1,0 +1,46 @@
+body{
+    height: 43em;
+    background: #aaa;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1{
+align-self: center;
+}
+
+
+#listOfProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #666;
+}
+
+#listOfProjects a{
+    margin-left: 10em;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+    font-size: x-large;
+}
+
+a:hover{
+    color: yellow;
+}
+
+p{
+    font-size: large;
+}
+
+@media screen and (max-width: 430px){
+    #listOfProjects a{
+        margin-left: 0em;
+    }
+}
